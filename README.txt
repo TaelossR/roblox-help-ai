@@ -1,13 +1,10 @@
-🚀 Ecos de Xoria - Servidor de IA para sistema de ayuda de Roblox
+🚀 Ecos de Xoria - Servidor IA para ayuda en Roblox
 
-Instrucciones rápidas:
+1) Subí este proyecto a un repositorio GitHub.
+2) En https://render.com, crea un nuevo Web Service y conecta tu repo.
+3) Render detectará Python y hará deploy.
+4) Agregá la variable de entorno OPENAI_API_KEY con tu API Key de OpenAI.
+5) Usá la URL https://<tu-app>.onrender.com/ask en Roblox (recordá poner "/ask").
+6) Actualizá BASE_CONTEXT en server.py para modificar el conocimiento.
 
-1. Subí este proyecto a un GitHub (nuevo repositorio).
-2. En https://render.com > New > Web Service > "Deploy from GitHub".
-3. Render lo detecta automáticamente.
-4. Te pedirá una variable de entorno: OPENAI_API_KEY (la copiás desde https://platform.openai.com/api-keys).
-5. Al terminar, usá la URL pública en tu script de Roblox. Ej: https://roblox-help-ai.onrender.com/ask
-
-Si querés actualizar el conocimiento del juego, editá el texto en BASE_CONTEXT dentro de server.py.
-
-¡Listo!
+¡Listo para usar!
